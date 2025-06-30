@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {  
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body  {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #333;
+  padding: 0 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 0%;
+    margin-top: 1rem;
+}
+
+h2{
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.5;
+}
+
+
+
+.line {
+
+      height: 2px;
+      background-color: black;
+      margin: 0.5rem 0 1rem;
+      width: 100%; 
+    }
+
+   header {
+      text-align: center;
+      margin-bottom: 2rem;
+        }
+
+    header p{
+        margin: 0.3rem 0;
+
+    }
+
+    .contact-icons a {
+        margin: 0 0.4rem;
+        display: inline-block;
+    }
+
+    .contact-icons img {
+        vertical-align: middle;
+    }
+
+    section {
+        margin-bottom: 2rem;
+    }
+
+    .skills-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  row-gap: 0.5rem;
+  column-gap: 3rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.skills-list dt {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.skills-list dd {
+  margin: 0;
+}
+
+
+    .project a {
+        display: inline-block;
+        margin-top: 1rem;
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+    }
+
+    .project a:hover {
+        text-decoration: underline;
+    }
+
+    .project a:hover {
+        text-decoration: underline;
+    }
+
+    .project li {
+        margin-bottom: 0.5 rem;
+    }
+
+
+    @media (max-width: 600px) {
+        body{
+            font-size: 14px;
+            padding: 0 1rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2{
+            font-size: 1.2rem;
+        }
+
+
+        .contact-icons img{
+            width: 30px;
+            height: 30px;
+        }
+    }
